@@ -1,0 +1,17 @@
+1. Create a database called Employeemanagement
+2. Create a table in the database called Employee_Details (Empno int Primary Key,
+EmpName varchar(50) not null,
+Empsal numeric(10,2) apply a check condition that empsal >=25000
+Emptype char(1) check whether type is 'F' or 'P' (Fulltime or Parttime)
+)
+ 
+ 
+To do :
+ 
+1. Create a stored procedure that adds new rows to the Employee_Details Table. The procedure should accept all the details as input except empno. You need to write the code in the procedure to generate the empno and then insert
+ 
+2. Check the procedure
+ 
+3. Using ADO.net classes/methods, insert employee details by calling the procedure
+ 
+4. Display all employee rows
